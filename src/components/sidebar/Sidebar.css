@@ -1,0 +1,140 @@
+/* .sidebar_btn img {
+
+    margin: 10px;
+} */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.new {
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    border: 0;
+    box-shadow: 5px 5px 5px gray;
+    font-size: 1.2rem;
+    margin: 10px 30px;
+}
+
+.new:hover {
+    box-shadow: 5px 5px 5px gray;
+    background-color: green;
+    color: white;
+}
+
+.new span {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.imglogo {
+    width: 50px;
+    height: 50px;
+}
+
+.options {
+    margin: 20px;
+    /* border: 1px solid black; */
+}
+
+.options .data {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 8px 20px;
+
+}
+
+.options .data:hover {
+    background-color: rgb(214, 226, 235);
+    border-radius: 0px 20px 0px 20px;
+    cursor: pointer;
+
+}
+
+.data span {
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(78, 78, 78)
+}
+
+.data_active {
+    background-color: aliceblue;
+}
+
+.data_active span {
+    color: blue;
+}
+
+.data_active svg {
+    color: blue;
+}
+
+.progressBar {
+    padding: 0px 20px;
+}
+
+.progressBar span {
+    display: block;
+    font-size: 13px;
+    color: gray;
+}
+
+.Model_pop {
+    top: 50%;
+    background-color: #FFFF;
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.model_Heading {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.closebtn {
+
+    width: 40px;
+    height: 40px;
+}
+
+input.post_submit {
+    width: 100%;
+    background-color: #2381fa;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.model_body {
+    margin: 10px 0px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.uploading {
+
+    background-color: rgb(66, 193, 66);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
